@@ -1,5 +1,6 @@
 import 'dart:async';
-import 'dart:html' if (dart_vm) 'package:html/dom.dart' show FormElement, IFrameElement, ScriptElement, TextAreaElement, document, window;import 'dart:js';
+import 'dart:html' if (dart_vm) 'package:html/dom.dart' show FormElement, IFrameElement, ScriptElement, TextAreaElement, document, window;
+import 'dart:js';
 import 'package:socket_io_client/src/engine/transport/polling_transport.dart';
 
 /**
