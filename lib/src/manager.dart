@@ -10,7 +10,7 @@
  *
  * Copyright (C) 2017 Potix Corporation. All Rights Reserved.
  */
-import 'dart:async';
+import 'dart:async' show Timer;
 import 'dart:math' as Math;
 
 import 'package:logging/logging.dart';

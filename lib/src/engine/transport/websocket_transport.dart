@@ -10,9 +10,8 @@
  *
  * Copyright (C) 2017 Potix Corporation. All Rights Reserved.
  */
-import 'dart:async';
-import 'dart:html';
-import 'package:logging/logging.dart';
+import 'dart:async' show Timer;
+import 'dart:html' if (dart_vm) 'package:html/dom.dart' show MessageEvent, WebSocket;import 'package:logging/logging.dart';
 import 'package:socket_io/src/engine/parser/parser.dart';
 import 'package:socket_io_client/src/engine/parseqs.dart';
 import 'package:socket_io_client/src/engine/transport/transports.dart';

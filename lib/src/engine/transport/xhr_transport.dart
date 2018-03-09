@@ -1,7 +1,6 @@
 import 'dart:async';
-import 'dart:html';
-
-import 'dart:typed_data';
+import 'dart:html' if (dart_vm) 'package:html/dom.dart';
+import 'dart:typed_data' show ByteBuffer;
 import 'package:logging/logging.dart';
 import 'package:socket_io/src/util/event_emitter.dart';
 import 'package:socket_io_client/src/engine/transport/polling_transport.dart';

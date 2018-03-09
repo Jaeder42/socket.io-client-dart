@@ -1,16 +1,3 @@
-/** 
- * parseqs.dart
- *
- * Purpose:
- *
- * Description:
- *
- * History:
- *   26/04/2017, Created by jumperchen
- *
- * Copyright (C) 2017 Potix Corporation. All Rights Reserved.
- */
-import 'dart:html';
 encode(Map obj) {
   var str = '';
 
